@@ -8,7 +8,7 @@ body {
     background-color: #1F2937;
     color: white;
     height: 65%;
-
+    overflow: hidden;
 }
 
 header {
@@ -61,4 +61,32 @@ nav > ul {
     padding: 10px 25px;
     border-radius: 5px;
     font-weight: bold;
+}
+
+video {
+    width: 100%;
+}
+
+#info-div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    padding: 10px;
+}
+
+.feature {
+    width: 20%;
+}
+
+.fdesc {
+    font-size: 12px;
 }
