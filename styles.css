@@ -152,3 +152,38 @@ video {
     display: flex;
     justify-content: end;
 }
+
+#cta-div {
+    height: 40vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cta-sh {
+    background-color: #3882f6;
+    width: 60%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+#cta-txt {
+    width: 40%;
+    color: #F9FAF8;
+}
+
+#cta-button {
+    border: 2px solid white;
+    border-radius: 5px;
+    color:#F9FAF8;
+    padding: 7px 17px;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: #1F2937;
+    height: 20vh;
+}
