@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    order: 1px solid red;
 }
 
 body {
@@ -65,11 +66,9 @@ li {
 
 #hero-sub-div {
     width: 40%;
-    margin-top: 50px;
 }
 
 #hero-img {
-    height: 65%;
     width: 45%;
 }
 
@@ -104,12 +103,12 @@ video {
 #info-div {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    height: 60vh;
 }
 
 .info-header {
-    margin: 20px 0 27px 0px;
+    margin: 25px 0 30px 0px;
 }
 
 .features {
@@ -129,4 +128,27 @@ video {
 
 .fdesc {
     font-size: 12px;
+}
+
+#quote-div {
+    background-color: #e5e7eb;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote-txt {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    width: 50%;
+}
+
+.bold-right {
+    margin-left: auto;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
 }
